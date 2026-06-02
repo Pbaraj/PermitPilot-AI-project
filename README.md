@@ -32,7 +32,6 @@ The current MVP focuses on **Munich / Lokalbaukommission (LBK)** because buildin
 - [Limitations](#limitations)
 - [Future Improvements](#future-improvements)
 - [MCP Readiness](#mcp-readiness)
-- [Interview Explanation](#interview-explanation)
 - [Disclaimer](#disclaimer)
 - [License](#license)
 
