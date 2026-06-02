@@ -1,0 +1,114 @@
+[
+  {
+    "requirement_id": "building_application_form",
+    "title": "Application form / Antragsformular",
+    "jurisdiction": "Munich / Lokalbaukommission",
+    "reference": "Munich LBK building application guidance",
+    "rule_summary": "Munich LBK guidance lists the application form as part of the building application documents.",
+    "severity": "Medium"
+  },
+  {
+    "requirement_id": "official_site_plan",
+    "title": "Official site plan / Amtlicher Lageplan",
+    "jurisdiction": "Munich / Bavaria",
+    "reference": "Munich LBK guidance; BauVorlV §7",
+    "rule_summary": "The site plan or cadastral extract must identify the building plot and relevant surrounding context.",
+    "severity": "High"
+  },
+  {
+    "requirement_id": "building_drawings",
+    "title": "Building drawings / Bauzeichnungen",
+    "jurisdiction": "Munich / Bavaria",
+    "reference": "Munich digital building application guidance; BauVorlV §8",
+    "rule_summary": "Building drawings normally include the necessary graphical plans for the proposed construction.",
+    "severity": "High"
+  },
+  {
+    "requirement_id": "floor_plans",
+    "title": "Floor plans / Grundrisse",
+    "jurisdiction": "Munich / Bavaria",
+    "reference": "BauVorlV §8",
+    "rule_summary": "Building drawings include floor plans of the floors with room use and required dimensions.",
+    "severity": "High"
+  },
+  {
+    "requirement_id": "sections_elevations",
+    "title": "Sections and elevations / Schnitte und Ansichten",
+    "jurisdiction": "Munich / Bavaria",
+    "reference": "Munich digital building application guidance; BauVorlV §8",
+    "rule_summary": "Munich guidance describes building drawings as including floor plans, elevations, and sections.",
+    "severity": "High"
+  },
+  {
+    "requirement_id": "building_description",
+    "title": "Building description / Baubeschreibung",
+    "jurisdiction": "Munich / Bavaria",
+    "reference": "Munich LBK guidance; BauVorlV §9",
+    "rule_summary": "The building description explains the project and supports assessment of the application.",
+    "severity": "Medium"
+  },
+  {
+    "requirement_id": "tree_declaration",
+    "title": "Tree stock declaration / Baumbestandserklärung",
+    "jurisdiction": "Munich / Lokalbaukommission",
+    "reference": "Munich LBK guidance",
+    "rule_summary": "Munich LBK guidance lists a tree stock declaration among application-related documents; project-specific relevance should be checked.",
+    "severity": "Low"
+  },
+  {
+    "requirement_id": "statistics_form",
+    "title": "Construction statistics form / Statistischer Erhebungsbogen",
+    "jurisdiction": "Munich / Lokalbaukommission",
+    "reference": "Munich LBK guidance",
+    "rule_summary": "Munich LBK guidance lists the statistical survey form among building application documents.",
+    "severity": "Medium"
+  },
+  {
+    "requirement_id": "structural_stability",
+    "title": "Structural stability proof / Standsicherheitsnachweis",
+    "jurisdiction": "Bavaria",
+    "reference": "BauVorlV §10; BauVorlV §3",
+    "rule_summary": "Structural stability proof or related declarations may be required depending on building type and review procedure.",
+    "severity": "High"
+  },
+  {
+    "requirement_id": "fire_safety",
+    "title": "Fire safety proof / Brandschutznachweis",
+    "jurisdiction": "Bavaria",
+    "reference": "BauVorlV §11",
+    "rule_summary": "For fire-safety proof, required fire-safety information may need to be shown in the site plan, building drawings, and building description where relevant.",
+    "severity": "High"
+  },
+  {
+    "requirement_id": "energy_certificate",
+    "title": "Energy / GEG documentation",
+    "jurisdiction": "Germany / Munich",
+    "reference": "Project-specific energy documentation",
+    "rule_summary": "Energy documentation should be checked for the specific project type and applicable energy-law requirements.",
+    "severity": "High"
+  },
+  {
+    "requirement_id": "drainage_plan",
+    "title": "Drainage plan / Entwässerungsplan",
+    "jurisdiction": "Munich",
+    "reference": "Project-specific drainage documentation",
+    "rule_summary": "Drainage and wastewater/rainwater information should be checked where the project affects site drainage or connections.",
+    "severity": "High"
+  },
+  {
+    "requirement_id": "parking_proof",
+    "title": "Parking proof / Stellplatznachweis",
+    "jurisdiction": "Munich",
+    "reference": "Project-specific Munich parking requirements",
+    "rule_summary": "Parking proof may be required depending on the project, use, and local requirements.",
+    "severity": "Medium"
+  },
+  {
+    "requirement_id": "signatures",
+    "title": "Signatures / Unterschriften",
+    "jurisdiction": "Bavaria / Munich",
+    "reference": "Bavarian building application form guidance",
+    "rule_summary": "Application documents generally need the required signatures from the applicant/client and relevant planning author.",
+    "severity": "High"
+  }
+]

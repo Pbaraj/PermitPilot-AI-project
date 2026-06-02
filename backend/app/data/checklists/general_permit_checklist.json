@@ -1,0 +1,192 @@
+[
+  {
+    "id": "project_name",
+    "requirement": "Project name or project title",
+    "required": true,
+    "keywords": [
+      "project name",
+      "project title",
+      "project designation",
+      "name of project",
+      "bauvorhaben",
+      "projektname",
+      "bezeichnung des vorhabens"
+    ]
+  },
+  {
+    "id": "project_address",
+    "requirement": "Project address or site location",
+    "required": true,
+    "keywords": [
+      "project address",
+      "site address",
+      "address",
+      "location",
+      "site location",
+      "property location",
+      "adresse",
+      "standort",
+      "lage",
+      "baugrundstück",
+      "flurstück",
+      "projektadresse"
+    ]
+  },
+  {
+    "id": "applicant",
+    "requirement": "Applicant or client information",
+    "required": true,
+    "keywords": [
+      "applicant",
+      "client",
+      "owner",
+      "developer",
+      "building owner",
+      "bauherr",
+      "antragsteller",
+      "auftraggeber",
+      "eigentümer"
+    ]
+  },
+  {
+    "id": "building_type",
+    "requirement": "Building type or building use",
+    "required": true,
+    "keywords": [
+      "building type",
+      "building use",
+      "type of building",
+      "use of building",
+      "residential building",
+      "commercial building",
+      "residential",
+      "commercial",
+      "nutzung",
+      "gebäudetyp",
+      "gebäudeklasse",
+      "wohngebäude",
+      "gewerbe"
+    ]
+  },
+  {
+    "id": "site_plan",
+    "requirement": "Site plan",
+    "required": true,
+    "keywords": [
+      "site plan",
+      "location plan",
+      "layout plan",
+      "position plan",
+      "plot plan",
+      "site layout",
+      "lageplan",
+      "amtlicher lageplan"
+    ]
+  },
+  {
+    "id": "floor_plans",
+    "requirement": "Floor plans or drawings",
+    "required": true,
+    "keywords": [
+      "floor plan",
+      "floor plans",
+      "ground plan",
+      "ground plans",
+      "building drawings",
+      "drawings",
+      "architectural drawings",
+      "plans",
+      "grundriss",
+      "grundrisse",
+      "bauzeichnungen",
+      "pläne"
+    ]
+  },
+  {
+    "id": "fire_safety",
+    "requirement": "Fire safety concept",
+    "required": true,
+    "keywords": [
+      "fire safety",
+      "fire protection",
+      "fire safety concept",
+      "fire protection concept",
+      "fire prevention concept",
+      "brandschutz",
+      "brandschutzkonzept"
+    ]
+  },
+  {
+    "id": "structural_report",
+    "requirement": "Structural report or structural stability proof",
+    "required": true,
+    "keywords": [
+      "structural report",
+      "structural calculation",
+      "structural calculations",
+      "static calculation",
+      "static calculations",
+      "stability proof",
+      "proof of stability",
+      "structural stability",
+      "statik",
+      "standsicherheit",
+      "statische berechnung",
+      "statische berechnungen",
+      "tragwerksplanung"
+    ]
+  },
+  {
+    "id": "energy_certificate",
+    "requirement": "Energy certificate or energy performance information",
+    "required": true,
+    "keywords": [
+      "energy certificate",
+      "energy performance",
+      "energy performance certificate",
+      "energy pass",
+      "energy documentation",
+      "thermal insulation proof",
+      "energieausweis",
+      "gebäudeenergiegesetz",
+      "geg",
+      "wärmeschutznachweis"
+    ]
+  },
+  {
+    "id": "drainage_plan",
+    "requirement": "Drainage or water management plan",
+    "required": true,
+    "keywords": [
+      "drainage",
+      "drainage plan",
+      "water management",
+      "stormwater",
+      "rainwater",
+      "sewerage plan",
+      "drainage scheme",
+      "wastewater",
+      "entwässerung",
+      "entwässerungsplan",
+      "regenwasser",
+      "abwasser"
+    ]
+  },
+  {
+    "id": "signatures",
+    "requirement": "Signatures or approvals",
+    "required": true,
+    "keywords": [
+      "signature",
+      "signatures",
+      "signed",
+      "approval",
+      "approved",
+      "authorization",
+      "unterschrift",
+      "unterschriften",
+      "genehmigung",
+      "freigabe"
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+pydantic-settings
+python-dotenv
+PyMuPDF
+langdetect
+openai
+argostranslate
+reportlab

@@ -1,0 +1,188 @@
+[
+  {
+    "id": "munich_application_documents",
+    "title": "Munich LBK application documents",
+    "jurisdiction": "Munich / Lokalbaukommission",
+    "source": "Munich LBK Bauvorlagen und Bauzeichnungen",
+    "related_requirements": [
+      "building_application_form",
+      "building_description",
+      "tree_declaration",
+      "statistics_form",
+      "official_site_plan",
+      "building_drawings",
+      "fire_safety"
+    ],
+    "keywords": [
+      "antragsformular",
+      "bauantrag",
+      "baubeschreibung",
+      "baumbestandserklärung",
+      "statistischer erhebungsbogen",
+      "amtlicher lageplan",
+      "bauzeichnungen",
+      "brandschutznachweis"
+    ],
+    "text": "Munich LBK guidance lists typical building application documents including the application form, building description, tree stock declaration, statistical survey form, official site plan, building drawings, detail drawings where needed, and fire-safety proof where it is reviewed by the building authority."
+  },
+  {
+    "id": "bavaria_site_plan_section_7",
+    "title": "BauVorlV §7 - Site plan / Lageplan",
+    "jurisdiction": "Bavaria / Munich",
+    "source": "Bavarian Bauvorlagenverordnung §7",
+    "related_requirements": [
+      "official_site_plan",
+      "project_address",
+      "project_name",
+      "applicant"
+    ],
+    "keywords": [
+      "lageplan",
+      "amtlicher lageplan",
+      "katasterwerk",
+      "flurkarte",
+      "baugrundstück",
+      "benachbarte grundstücke",
+      "bauherr",
+      "bauvorhaben"
+    ],
+    "text": "BauVorlV §7 describes the cadastral extract and site plan. The site plan or cadastral extract should identify the building plot and surrounding neighbouring plots. The building plot should be marked and the document should include information such as the client name, project designation, and date of the related application documents."
+  },
+  {
+    "id": "bavaria_building_drawings_section_8",
+    "title": "BauVorlV §8 - Building drawings / Bauzeichnungen",
+    "jurisdiction": "Bavaria / Munich",
+    "source": "Bavarian Bauvorlagenverordnung §8",
+    "related_requirements": [
+      "building_drawings",
+      "floor_plans",
+      "sections_elevations"
+    ],
+    "keywords": [
+      "bauzeichnungen",
+      "grundrisse",
+      "schnitte",
+      "ansichten",
+      "zeichnungen",
+      "floor plans",
+      "sections",
+      "elevations"
+    ],
+    "text": "Building drawings are used to assess the proposed construction graphically. In Munich/Bavaria permit review, floor plans, sections, and elevations are important drawing types and should be clearly labelled and consistent with the site plan and building description."
+  },
+  {
+    "id": "bavaria_building_description_section_9",
+    "title": "BauVorlV §9 - Building description / Baubeschreibung",
+    "jurisdiction": "Bavaria / Munich",
+    "source": "Bavarian Bauvorlagenverordnung §9",
+    "related_requirements": [
+      "building_description",
+      "building_type"
+    ],
+    "keywords": [
+      "baubeschreibung",
+      "bauvorhaben",
+      "nutzung",
+      "gebäudeklasse",
+      "höhe",
+      "baukosten",
+      "building description"
+    ],
+    "text": "BauVorlV §9 states that the building description explains the project and its use where needed for assessment, especially if the necessary information is not already contained in the site plan or building drawings. It can also include building class, height, and construction-cost information where relevant."
+  },
+  {
+    "id": "bavaria_fire_safety_section_11",
+    "title": "BauVorlV §11 - Fire safety proof / Brandschutznachweis",
+    "jurisdiction": "Bavaria / Munich",
+    "source": "Bavarian Bauvorlagenverordnung §11",
+    "related_requirements": [
+      "fire_safety",
+      "official_site_plan",
+      "building_drawings",
+      "building_description"
+    ],
+    "keywords": [
+      "brandschutz",
+      "brandschutznachweis",
+      "brandschutzkonzept",
+      "lageplan",
+      "bauzeichnungen",
+      "baubeschreibung",
+      "fire safety"
+    ],
+    "text": "BauVorlV §11 links fire-safety proof with information shown in the site plan, building drawings, and building description where required. If a document explicitly says the fire-safety concept is not attached, this should be treated as a high-priority missing item."
+  },
+  {
+    "id": "munich_digital_building_application",
+    "title": "Munich digital building application",
+    "jurisdiction": "Munich / Lokalbaukommission",
+    "source": "Munich digital building application guidance",
+    "related_requirements": [
+      "building_application_form",
+      "building_drawings"
+    ],
+    "keywords": [
+      "digitaler bauantrag",
+      "lokalbaukommission",
+      "bauzeichnungen",
+      "digital application",
+      "building application"
+    ],
+    "text": "Munich allows building applications and related applications to be submitted digitally. For digital workflows, the application documents and drawings still need to be complete, clearly named, and suitable for review."
+  },
+  {
+    "id": "munich_tree_declaration",
+    "title": "Tree stock declaration / Baumbestandserklärung",
+    "jurisdiction": "Munich / Lokalbaukommission",
+    "source": "Munich LBK guidance",
+    "related_requirements": [
+      "tree_declaration"
+    ],
+    "keywords": [
+      "baumbestandserklärung",
+      "baumbestand",
+      "baumschutz",
+      "baumfällung",
+      "tree stock",
+      "tree protection"
+    ],
+    "text": "Munich LBK guidance includes the tree stock declaration among application-related documents. Its relevance depends on the specific plot and whether protected trees or tree-removal issues are involved."
+  },
+  {
+    "id": "munich_statistics_form",
+    "title": "Statistical survey form / Statistischer Erhebungsbogen",
+    "jurisdiction": "Munich / Lokalbaukommission",
+    "source": "Munich LBK guidance",
+    "related_requirements": [
+      "statistics_form"
+    ],
+    "keywords": [
+      "statistischer erhebungsbogen",
+      "baustatistik",
+      "statistik der baugenehmigungen",
+      "statistics form"
+    ],
+    "text": "Munich LBK guidance lists the statistical survey form among building application documents. If it is missing from a Munich permit submission, the system should flag it as a completeness issue."
+  },
+  {
+    "id": "munich_signatures",
+    "title": "Signatures / Unterschriften",
+    "jurisdiction": "Munich / Bavaria",
+    "source": "Bavarian building application practice",
+    "related_requirements": [
+      "signatures",
+      "applicant",
+      "designer_author"
+    ],
+    "keywords": [
+      "unterschrift",
+      "unterschriften",
+      "signed",
+      "signature",
+      "bauherr",
+      "entwurfsverfasser",
+      "antragsteller"
+    ],
+    "text": "Permit application documents generally need the required signatures from the responsible applicant, client, or design author depending on the document and submission procedure. Missing signatures should be treated as a formal completeness risk."
+  }
+]

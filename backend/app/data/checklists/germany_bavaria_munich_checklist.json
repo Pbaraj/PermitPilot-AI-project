@@ -1,0 +1,343 @@
+[
+  {
+    "id": "building_application_form",
+    "requirement": "Building permit application form / Bauantragsformular",
+    "required": true,
+    "keywords": [
+      "building permit application",
+      "building application",
+      "application form",
+      "permit application",
+      "bauantrag",
+      "bauantragsformular",
+      "antrag auf baugenehmigung",
+      "baugenehmigungsantrag"
+    ]
+  },
+  {
+    "id": "project_name",
+    "requirement": "Project name / Bauvorhaben",
+    "required": true,
+    "keywords": [
+      "project name",
+      "project title",
+      "project designation",
+      "name of project",
+      "bauvorhaben",
+      "projektname",
+      "bezeichnung des vorhabens",
+      "vorhaben"
+    ]
+  },
+  {
+    "id": "project_address",
+    "requirement": "Project address / Baugrundstück",
+    "required": true,
+    "keywords": [
+      "project address",
+      "site address",
+      "address",
+      "location",
+      "site location",
+      "property location",
+      "baugrundstück",
+      "projektadresse",
+      "adresse",
+      "standort",
+      "lage",
+      "flurstück",
+      "gemarkung"
+    ]
+  },
+  {
+    "id": "applicant",
+    "requirement": "Applicant / Bauherr or Antragsteller",
+    "required": true,
+    "keywords": [
+      "applicant",
+      "client",
+      "owner",
+      "developer",
+      "building owner",
+      "bauherr",
+      "bauherrin",
+      "antragsteller",
+      "antragstellerin",
+      "auftraggeber",
+      "eigentümer",
+      "eigentümerin"
+    ]
+  },
+  {
+    "id": "designer_author",
+    "requirement": "Designer / Entwurfsverfasser",
+    "required": true,
+    "keywords": [
+      "designer",
+      "architect",
+      "author of design",
+      "planning author",
+      "entwurfsverfasser",
+      "entwurfsverfasserin",
+      "architekt",
+      "architektin",
+      "planer",
+      "planerin"
+    ]
+  },
+  {
+    "id": "building_type",
+    "requirement": "Building type and use / Gebäudetyp und Nutzung",
+    "required": true,
+    "keywords": [
+      "building type",
+      "building use",
+      "type of building",
+      "use of building",
+      "residential building",
+      "commercial building",
+      "residential",
+      "commercial",
+      "nutzung",
+      "gebäudetyp",
+      "gebäudeklasse",
+      "wohngebäude",
+      "gewerbe",
+      "art der nutzung"
+    ]
+  },
+  {
+    "id": "official_site_plan",
+    "requirement": "Official site plan / Amtlicher Lageplan",
+    "required": true,
+    "keywords": [
+      "official site plan",
+      "site plan",
+      "location plan",
+      "plot plan",
+      "cadastral plan",
+      "lageplan",
+      "amtlicher lageplan",
+      "katasterauszug",
+      "auszug aus dem katasterwerk"
+    ]
+  },
+  {
+    "id": "building_drawings",
+    "requirement": "Building drawings / Bauzeichnungen",
+    "required": true,
+    "keywords": [
+      "building drawings",
+      "architectural drawings",
+      "drawings",
+      "construction drawings",
+      "bauzeichnungen",
+      "bauzeichnung",
+      "pläne",
+      "planunterlagen"
+    ]
+  },
+  {
+    "id": "floor_plans",
+    "requirement": "Floor plans / Grundrisse",
+    "required": true,
+    "keywords": [
+      "floor plan",
+      "floor plans",
+      "ground plan",
+      "ground plans",
+      "grundriss",
+      "grundrisse"
+    ]
+  },
+  {
+    "id": "sections_elevations",
+    "requirement": "Sections and elevations / Schnitte und Ansichten",
+    "required": true,
+    "keywords": [
+      "section",
+      "sections",
+      "elevation",
+      "elevations",
+      "building section",
+      "building elevations",
+      "schnitt",
+      "schnitte",
+      "ansicht",
+      "ansichten"
+    ]
+  },
+  {
+    "id": "building_description",
+    "requirement": "Building description / Baubeschreibung",
+    "required": true,
+    "keywords": [
+      "building description",
+      "construction description",
+      "project description",
+      "technical description",
+      "baubeschreibung",
+      "bau- und betriebsbeschreibung",
+      "beschreibung des vorhabens"
+    ]
+  },
+  {
+    "id": "structural_stability",
+    "requirement": "Structural stability proof / Standsicherheitsnachweis",
+    "required": true,
+    "keywords": [
+      "structural report",
+      "structural calculation",
+      "structural calculations",
+      "static calculation",
+      "static calculations",
+      "stability proof",
+      "proof of stability",
+      "structural stability",
+      "statik",
+      "standsicherheit",
+      "statische berechnung",
+      "statische berechnungen",
+      "tragwerksplanung",
+      "standsicherheitsnachweis",
+      "kriterienkatalog"
+    ]
+  },
+  {
+    "id": "fire_safety",
+    "requirement": "Fire safety proof / Brandschutznachweis or Brandschutzkonzept",
+    "required": true,
+    "keywords": [
+      "fire safety",
+      "fire protection",
+      "fire safety concept",
+      "fire protection concept",
+      "fire safety proof",
+      "brandschutz",
+      "brandschutzkonzept",
+      "brandschutznachweis"
+    ]
+  },
+  {
+    "id": "energy_certificate",
+    "requirement": "Energy certificate / Energieausweis or GEG documentation",
+    "required": true,
+    "keywords": [
+      "energy certificate",
+      "energy performance",
+      "energy performance certificate",
+      "energy pass",
+      "energy documentation",
+      "thermal insulation proof",
+      "energieausweis",
+      "gebäudeenergiegesetz",
+      "geg",
+      "wärmeschutznachweis",
+      "energiebedarfsausweis"
+    ]
+  },
+  {
+    "id": "drainage_plan",
+    "requirement": "Drainage plan / Entwässerungsplan",
+    "required": true,
+    "keywords": [
+      "drainage",
+      "drainage plan",
+      "water management",
+      "stormwater",
+      "rainwater",
+      "sewerage plan",
+      "wastewater",
+      "entwässerung",
+      "entwässerungsplan",
+      "regenwasser",
+      "abwasser"
+    ]
+  },
+  {
+    "id": "parking_proof",
+    "requirement": "Parking proof / Stellplatznachweis",
+    "required": true,
+    "keywords": [
+      "parking proof",
+      "parking spaces",
+      "car parking",
+      "bicycle parking",
+      "stellplatznachweis",
+      "stellplätze",
+      "kfz-stellplätze",
+      "fahrradstellplätze"
+    ]
+  },
+  {
+    "id": "distance_area_plan",
+    "requirement": "Distance area proof / Abstandsflächenplan",
+    "required": true,
+    "keywords": [
+      "distance area",
+      "distance areas",
+      "setback area",
+      "abstandsflächen",
+      "abstandsflächenplan",
+      "abstandsflächennachweis"
+    ]
+  },
+  {
+    "id": "statistics_form",
+    "requirement": "Construction statistics form / Statistik der Baugenehmigungen",
+    "required": true,
+    "keywords": [
+      "construction statistics",
+      "building statistics",
+      "statistics of building permits",
+      "statistik der baugenehmigungen",
+      "baustatistik",
+      "erhebungsbogen"
+    ]
+  },
+  {
+    "id": "tree_declaration",
+    "requirement": "Tree stock declaration / Baumbestandserklärung",
+    "required": false,
+    "keywords": [
+      "tree declaration",
+      "tree stock",
+      "tree protection",
+      "tree inventory",
+      "baumbestandserklärung",
+      "baumbestand",
+      "baumschutz",
+      "baumfällung"
+    ]
+  },
+  {
+    "id": "power_of_attorney",
+    "requirement": "Power of attorney / Vollmacht",
+    "required": false,
+    "keywords": [
+      "power of attorney",
+      "authorization",
+      "representative",
+      "vollmacht",
+      "bevollmächtigte",
+      "bevollmächtigter"
+    ]
+  },
+  {
+    "id": "signatures",
+    "requirement": "Signatures / Unterschriften",
+    "required": true,
+    "keywords": [
+      "signature",
+      "signatures",
+      "signed",
+      "approval",
+      "approved",
+      "unterschrift",
+      "unterschriften",
+      "unterzeichnet",
+      "genehmigung",
+      "freigabe"
+    ]
+  }
+]
