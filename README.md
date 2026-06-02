@@ -948,18 +948,6 @@ This would allow external AI clients to call PermitPilot tools through a standar
 
 ---
 
-## Interview Explanation
-
-A concise interview explanation:
-
-> PermitPilot AI is a Munich-focused GenAI/RAG permit document screening assistant. It uses a multi-agent FastAPI backend to extract PDF text, detect language, translate German documents, check Munich/LBK permit completeness, retrieve relevant Bavaria/Munich regulation context, and generate an AI-assisted readiness report. The system combines deterministic checklist validation with local RAG retrieval and a Hugging Face LLM reviewer, while keeping a fallback rule-based reviewer for reliability. It is designed as a decision-support tool, not as a legal approval system.
-
-A more technical explanation:
-
-> The backend follows a modular agent workflow. First, PyMuPDF extracts document text. Then the system detects language, performs internal translation, extracts project metadata, and runs a jurisdiction-specific checklist. A regulation matching agent maps checklist items to Munich/Bavaria rules, and a local RAG service retrieves supporting regulatory context from a curated knowledge base. The LLM reviewer receives checklist results, missing items, RAG snippets, and risk items, then returns a structured JSON screening decision. If the LLM fails, the fallback reviewer still produces a safe report. The frontend displays all evidence, checklist status, RAG context, and exports a Markdown/PDF report.
-
----
-
 ## Disclaimer
 
 PermitPilot AI is an AI-assisted preliminary screening tool. It is not legal advice, not an official permit decision, and not a replacement for qualified professional or authority review.
