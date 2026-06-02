@@ -26,7 +26,6 @@ The current MVP focuses on **Munich / Lokalbaukommission (LBK)** because buildin
 - [API Endpoints](#api-endpoints)
 - [How to Use the App](#how-to-use-the-app)
 - [Example Output](#example-output)
-- [Screenshots](#screenshots)
 - [Security and Data Privacy](#security-and-data-privacy)
 - [Recommended .gitignore](#recommended-gitignore)
 - [Limitations](#limitations)
@@ -797,18 +796,6 @@ Recommended screenshots:
 4. Retrieved Munich Regulation Context
 5. PDF Report Preview
 ```
-
-Example Markdown:
-
-```markdown
-![Upload screen](docs/screenshots/upload-screen.png)
-![AI Screening Decision](docs/screenshots/ai-screening.png)
-![Checklist Results](docs/screenshots/checklist-results.png)
-![RAG Context](docs/screenshots/rag-context.png)
-![PDF Report](docs/screenshots/pdf-report.png)
-```
-
----
 
 ## Security and Data Privacy
 
