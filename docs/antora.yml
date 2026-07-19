@@ -1,0 +1,6 @@
+name: permitpilot-ai
+title: PermitPilot AI
+version: '1.0'
+
+nav:
+  - modules/ROOT/nav.adoc
