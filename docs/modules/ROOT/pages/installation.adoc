@@ -1,0 +1,158 @@
+= Installation and Setup
+
+== Prerequisites
+
+Install the following software:
+
+* Git
+* Python 3.11
+* Conda, using Anaconda or Miniconda
+* Node.js
+* npm
+
+== Clone the Repository
+
+Open PowerShell and run:
+
+[source,powershell]
+----
+git clone https://github.com/Pbaraj/PermitPilot-AI-project.git
+cd PermitPilot-AI-project
+----
+
+== Backend Setup
+
+Navigate to the backend directory:
+
+[source,powershell]
+----
+cd backend
+----
+
+Create the Conda environment:
+
+[source,powershell]
+----
+conda create -n permitpilot python=3.11
+----
+
+Activate the environment:
+
+[source,powershell]
+----
+conda activate permitpilot
+----
+
+If the environment already exists, you only need to activate it:
+
+[source,powershell]
+----
+conda activate permitpilot
+----
+
+Install the Python dependencies:
+
+[source,powershell]
+----
+pip install -r requirements.txt
+----
+
+== Environment Configuration
+
+Create a file named `.env` inside the `backend` directory:
+
+[source,text]
+----
+PermitPilot-AI-project/
+└── backend/
+    └── .env
+----
+
+For local rule-based operation without a cloud LLM, add:
+
+[source,env]
+----
+USE_HUGGINGFACE=false
+USE_OPENROUTER=false
+USE_OLLAMA=false
+USE_OPENAI=false
+----
+
+This configuration disables cloud LLM calls and uses the rule-based fallback reviewer.
+
+[IMPORTANT]
+====
+Never commit the `.env` file or real API keys to GitHub.
+====
+
+== Start the Backend
+
+Make sure that you are inside the `backend` directory and that the
+`permitpilot` Conda environment is active.
+
+Run:
+
+[source,powershell]
+----
+uvicorn app.main:app --reload
+----
+
+The backend API documentation is available at:
+
+[source,text]
+----
+http://127.0.0.1:8000/docs
+----
+
+Keep this terminal open while using the application.
+
+== Frontend Setup
+
+Open a second PowerShell terminal and navigate to the frontend directory:
+
+[source,powershell]
+----
+cd PermitPilot-AI-project\frontend
+----
+
+If your terminal is already in the repository root, run:
+
+[source,powershell]
+----
+cd frontend
+----
+
+Install the frontend dependencies:
+
+[source,powershell]
+----
+npm install
+----
+
+Start the frontend development server:
+
+[source,powershell]
+----
+npm run dev
+----
+
+The frontend is normally available at:
+
+[source,text]
+----
+http://localhost:5173
+----
+
+Keep this terminal open while using the application.
+
+== Run the Application
+
+. Start the backend in the first terminal.
+. Start the frontend in the second terminal.
+. Open `http://localhost:5173` in your browser.
+. Upload a permit or engineering PDF.
+. Select the report language.
+. Select the jurisdiction.
+. Click **Review document**.
+. Review the readiness score, checklist results, regulation context, and risks.
+. Download the Markdown or PDF report when required.
