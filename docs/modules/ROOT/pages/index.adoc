@@ -1,0 +1,84 @@
+= PermitPilot AI
+
+PermitPilot AI is a multilingual, multi-agent document review assistant for building-permit and engineering documents.
+
+The current version focuses on Munich and the Lokalbaukommission (LBK). It helps users review uploaded PDF documents, identify potentially missing information, retrieve relevant Munich and Bavaria regulation context, and generate a preliminary permit-readiness report.
+
+[IMPORTANT]
+====
+PermitPilot AI is a preliminary document-screening and decision-support tool.
+
+It does not approve building permits, provide legal advice, or replace an assessment by a qualified architect, engineer, lawyer, Prüfingenieur, or permitting authority.
+====
+
+== Main Features
+
+* Upload and extract text from PDF documents
+* Detect the document language
+* Process German-language documents
+* Check documents against Munich/LBK checklist requirements
+* Identify missing or unclear information
+* Extract supporting evidence from the uploaded document
+* Match checklist results with regulation references
+* Retrieve Munich and Bavaria regulation context using local RAG
+* Generate a permit-readiness score
+* Produce Markdown and PDF reports
+* Use a rule-based fallback when an LLM is unavailable
+
+== Workflow
+
+The application follows this general workflow:
+
+. Upload a permit or engineering PDF
+. Extract and normalize the document text
+. Detect the document language
+. Translate the content internally when required
+. Extract important project information
+. Check document completeness
+. Match relevant regulations
+. Retrieve supporting regulation context
+. Analyse submission risks
+. Generate a preliminary review report
+
+== Technology Stack
+
+=== Backend
+
+* Python
+* FastAPI
+* Pydantic
+* PyMuPDF
+* Argos Translate
+* ReportLab
+* Hugging Face Inference Providers
+* Local retrieval-augmented generation
+
+=== Frontend
+
+* React
+* Vite
+* JavaScript
+* CSS
+
+== Architecture
+
+PermitPilot AI uses a hybrid architecture combining:
+
+* Rule-based document validation
+* Evidence extraction
+* Multi-agent processing
+* Local RAG retrieval
+* Cloud or local LLM integration
+* Fallback safety logic
+* Human-in-the-loop decision support
+
+== Current Scope
+
+The current MVP is designed for:
+
+* Munich building-permit documentation
+* Lokalbaukommission checklist screening
+* Bavaria-related building document requirements
+* German and English permit terminology
+
+The modular architecture allows additional cities and jurisdictions to be added later.
